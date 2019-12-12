@@ -22,3 +22,5 @@ end
 def kesha_maker(array)
   array.each do |third|
     third[2] = "$"
+  end
+end
