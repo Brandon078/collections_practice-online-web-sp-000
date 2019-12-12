@@ -36,8 +36,8 @@ def sum_array(array)
 end
 def add_s(array)
   array.each_with_index.map do |word|
-    if word != word[1]
-      word + "s"
+    if array[1] == word
+      word
     else
       word
     end
