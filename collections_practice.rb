@@ -27,5 +27,5 @@ end
 def find_a(array)
   array.find_all do |starts|
   starts[]= "a"
-end
+  end
 end
