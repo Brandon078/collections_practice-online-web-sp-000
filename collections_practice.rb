@@ -1,3 +1,3 @@
 def ascending(array)
-  array.sort |ascend|
+  array.sort
 end
