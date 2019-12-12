@@ -24,3 +24,7 @@ def kesha_maker(array)
     third[2] = "$"
   end
 end
+def find_a(array)
+  array.find_all |starts|
+  starts[]= "a"
+  
