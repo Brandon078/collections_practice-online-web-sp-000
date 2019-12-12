@@ -34,3 +34,9 @@ def sum_array(array)
   sum + num
   end
 end
+def add_s(array)
+  array.each_with_index.map do |word|
+    if word.end_with?("s")
+      word
+    else
+      word + "s"
