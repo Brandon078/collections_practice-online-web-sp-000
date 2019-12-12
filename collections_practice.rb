@@ -9,6 +9,6 @@ def sort_array_char_count(array)
   left.length <=> right.length
 end
 def swap_elements(array)
-  array.sort |array, index, destination_index|
+  array.sort | array, index, destination_index |
   index <=> destination_index
 end
