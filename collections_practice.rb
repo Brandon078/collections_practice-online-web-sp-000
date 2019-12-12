@@ -25,7 +25,7 @@ def kesha_maker(array)
   end
 end
 def find_a(array)
-  array.find_all |starts|
+  array.find_all do |starts|
   starts[]= "a"
 end
 end
