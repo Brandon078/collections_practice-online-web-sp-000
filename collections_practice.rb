@@ -38,11 +38,11 @@ def add_s(array)
   array.each_with_index.map do |word|
     if word.end_with?("s")
       word
-    else
-      word + "s"
     elsif
       word[1]
       word
+    else
+      word + "s"
     end
   end
 end
