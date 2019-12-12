@@ -29,4 +29,3 @@ def find_a(array)
   starts[]= "a"
 end
 end
-
