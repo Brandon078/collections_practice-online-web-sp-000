@@ -1,2 +1,2 @@
 array.sort
-end.
+end
