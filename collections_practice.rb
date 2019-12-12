@@ -19,4 +19,5 @@ end
 def reverse_array(array)
   array.sort.reverse do |left, right|
     left <=> right
+  end
 end
