@@ -1,2 +1,4 @@
-array.sort
+def ascending(array)
+  array.sort |ascend|
+
 end
