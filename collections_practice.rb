@@ -25,7 +25,7 @@ def kesha_maker(array)
   end
 end
 def find_a(array)
-  array do |name|
+  array.select do |name|
     name.start_with?("a")
     name
   end
