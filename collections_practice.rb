@@ -16,3 +16,6 @@ def swap_elements(array)
   array[1] = dummy_2
   array
 end
+def reverse_array(array)
+  array.sort.reverse
+end
