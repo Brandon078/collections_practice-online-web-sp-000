@@ -5,5 +5,6 @@ def sort_array_desc(array)
   array.sort.reverse
 end
 def sort_array_char_count(array)
-  copy = array.sort.reverse
+  array.sort |left, right|
+  left.length <=> right.length
 end
