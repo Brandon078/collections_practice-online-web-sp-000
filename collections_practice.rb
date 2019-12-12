@@ -36,13 +36,10 @@ def sum_array(array)
 end
 def add_s(array)
   array.each_with_index.map do |word|
-    if word.end_with?("s")
-      word
-    elsif
-      word[1]
-      word
-    else
+    if word != word[1]
       word + "s"
+    else
+      word
     end
   end
 end
